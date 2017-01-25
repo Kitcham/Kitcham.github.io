@@ -475,18 +475,18 @@
         }
     </style>
 <!-- add data-ripple attribute -->
-	<button class="btn1">Read Comments</button>
+	<button class="btn1" data-ripple>Read Comments</button>
 <script>
     // add effect to elements
-    Array.prototype.forEach.call(document.querySelectorAll('[.btn1]'), function(element){
+    Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
         // find all elements and attach effect
         new RippleEffect(element); // element is instance of javascript element node
     });
 
-    // Or jQuery way
+        // Or jQuery way
     /*
 
-    $('[.btn1]').each(function(){
+    $('[data-ripple]').each(function(){
         new RippleEffect(this);
     });
 
