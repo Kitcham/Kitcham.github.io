@@ -400,8 +400,7 @@
 
 
     <!-- 使用 DISQUS_CLICK -->
-    <div id="disqus-comment">
-	
+    <div id="disqus-comment">	
         <div id="disqus_thread"></div>
 <script>
     $('html').ready(function() {
@@ -420,8 +419,60 @@
             })();
        });
     });
+
 </script>
-<button class="btn1">显示评论</button>
+<!-- include js -->
+<script src="/themes/material/source/js/ripple.js"></script>
+<!-- add animation -->
+<style>
+        .ripple-container {
+        }
+        .ripple-container .ripple{
+            background-color: rgba(255,255,255,0.4);
+            animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
+        }
+        @keyframes ripple {
+            0% {
+                transform: scale(0);
+                opacity: 1;
+            }
+            80% {
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <!-- page css -->
+    <style>
+        .button {
+            background-color: dodgerblue;
+            color: white;
+            padding: 10px 20px;
+            border:0;
+            font-size: 14px;
+            cursor: pointer
+        }
+    </style>
+<!-- add data-ripple attribute -->
+	<button class="btn1">Read Comments</button>
+<script>
+    // add effect to elements
+    Array.prototype.forEach.call(document.querySelectorAll('[.btn1]'), function(element){
+        // find all elements and attach effect
+        new RippleEffect(element); // element is instance of javascript element node
+    });
+
+    // Or jQuery way
+    /*
+
+    $('[.btn1]').each(function(){
+        new RippleEffect(this);
+    });
+
+    */
+</script>	
 
     </div>
     <style>
