@@ -440,7 +440,10 @@
     });
 </script>
  <!-- include js -->
-    <script src="https://cdn.kitcham.top/blog/js/ripple.js">
+    <script src="https://cdn.kitcham.top/blog/js/ripple.js"></script>
+    
+	<!-- we just added data-ripple attribute --><button class="btn1" data-ripple>Read Comments</button>
+	
     <!-- add animation -->
     <style>
         .ripple-container {
@@ -462,6 +465,7 @@
             }
         }
     </style>
+	
     <!-- demo page css -->
     <style>
         button {
@@ -473,11 +477,7 @@
             cursor: pointer
         }
     </style>
-<!-- we just added data-ripple attribute -->
-<button class="btn1" data-ripple>
-    Read Comments
-</button>
-
+	
 <script>
     // just add effect to elements
     Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
