@@ -401,11 +401,11 @@
 
     <!-- 使用 DISQUS_CLICK -->
     <div id="disqus-comment">
+	<button class="btn1">显示评论</button>
         <div id="disqus_thread"></div>
 <script>
     $('html').ready(function() {
-            object.onclick=function(){
-	        
+        $(".btn1").click(function(){
             var disqus_config = function () {
                 this.page.url = 'https://blog.kitcham.top/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
@@ -418,7 +418,7 @@
                 s.setAttribute('data-timestamp', + new Date());
                 (d.head || d.body).appendChild(s);
             })();
-       };
+       };)
     });
 </script>
 
