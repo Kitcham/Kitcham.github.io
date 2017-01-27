@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://blog.kitcham.top/2017/01/27/Revient_Wheel_For_Disuqs_in_GFW/</loc>
+    <lastmod>2017-01-26T17:16:16.695Z</lastmod>
+    <data>
+        <display>
+        <title>造个伪轮子，提升墙内Disqus体验，手动加载</title>
+        <pubTime>2017-01-26T16:46:23.000Z</pubTime>
+        
+        <tag>技术</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>多说</tag>
+         
+        <tag>Disqus</tag>
+         
+        <tag>轮子</tag>
+         
+        <tag>Github</tag>
+         
+        <tag>Javascript</tag>
+         
+        <tag>HTML</tag>
+         
+        <tag>实验室</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术录" url="https://blog.kitcham.top/categories/%E6%8A%80%E6%9C%AF%E5%BD%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://blog.kitcham.top/2017/01/22/Hi_Earth_To_the_Hexo/</loc>
+    <lastmod>2017-01-26T16:54:30.923Z</lastmod>
+    <data>
+        <display>
+        <title>投奔到Hexo中</title>
+        <pubTime>2017-01-22T15:56:27.000Z</pubTime>
+        
+        <tag>技术</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>Typecho</tag>
+         
+        <tag>Wordpress</tag>
+         
+        <tag>起源</tag>
+         
+        <tag>Material Design</tag>
+         
+         
+           
+             
+              <breadCrumb title="浮生记" url="https://blog.kitcham.top/categories/%E6%B5%AE%E7%94%9F%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+</urlset>
