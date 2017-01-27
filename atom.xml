@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kitcham’s Blog</title>
+  <subtitle>来自远方又未曾远离</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.kitcham.top/"/>
+  <updated>2017-01-26T17:16:16.695Z</updated>
+  <id>https://blog.kitcham.top/</id>
+  
+  <author>
+    <name>Kitcham</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>造个伪轮子，提升墙内Disqus体验，手动加载</title>
+    <link href="https://blog.kitcham.top/2017/01/27/Revient_Wheel_For_Disuqs_in_GFW/"/>
+    <id>https://blog.kitcham.top/2017/01/27/Revient_Wheel_For_Disuqs_in_GFW/</id>
+    <published>2017-01-26T16:46:23.000Z</published>
+    <updated>2017-01-26T17:16:16.695Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;怎么说呢，Disqus是个好东西，只是必需要轮子&lt;/p&gt;
+&lt;h1 id=&quot;多说-VS-Disqus&quot;&gt;&lt;a href=&quot;#多说-VS-Disqus&quot; class=&quot;headerlink&quot; title=&quot;多说 VS Disqus&quot;&gt;&lt;/a&gt;多说 VS Disqus&lt;/h1&gt;&lt;
+    
+    </summary>
+    
+      <category term="技术录" scheme="https://blog.kitcham.top/categories/%E6%8A%80%E6%9C%AF%E5%BD%95/"/>
+    
+    
+      <category term="技术" scheme="https://blog.kitcham.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Hexo" scheme="https://blog.kitcham.top/tags/Hexo/"/>
+    
+      <category term="多说" scheme="https://blog.kitcham.top/tags/%E5%A4%9A%E8%AF%B4/"/>
+    
+      <category term="Disqus" scheme="https://blog.kitcham.top/tags/Disqus/"/>
+    
+      <category term="轮子" scheme="https://blog.kitcham.top/tags/%E8%BD%AE%E5%AD%90/"/>
+    
+      <category term="Github" scheme="https://blog.kitcham.top/tags/Github/"/>
+    
+      <category term="Javascript" scheme="https://blog.kitcham.top/tags/Javascript/"/>
+    
+      <category term="HTML" scheme="https://blog.kitcham.top/tags/HTML/"/>
+    
+      <category term="实验室" scheme="https://blog.kitcham.top/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>投奔到Hexo中</title>
+    <link href="https://blog.kitcham.top/2017/01/22/Hi_Earth_To_the_Hexo/"/>
+    <id>https://blog.kitcham.top/2017/01/22/Hi_Earth_To_the_Hexo/</id>
+    <published>2017-01-22T15:56:27.000Z</published>
+    <updated>2017-01-26T16:54:30.923Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;讲真，Wordpress的”浩瀚“和”Typecho“的”精致”都已经体会过了&lt;/p&gt;
+&lt;h1 id=&quot;终于，决定是Hexo了&quot;&gt;&lt;a href=&quot;#终于，决定是Hexo了&quot; class=&quot;headerlink&quot; title=&quot;终于，决定是Hexo了&quot;&gt;&lt;/a&gt;终于，决定是
+    
+    </summary>
+    
+      <category term="浮生记" scheme="https://blog.kitcham.top/categories/%E6%B5%AE%E7%94%9F%E8%AE%B0/"/>
+    
+    
+      <category term="技术" scheme="https://blog.kitcham.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Hexo" scheme="https://blog.kitcham.top/tags/Hexo/"/>
+    
+      <category term="Typecho" scheme="https://blog.kitcham.top/tags/Typecho/"/>
+    
+      <category term="Wordpress" scheme="https://blog.kitcham.top/tags/Wordpress/"/>
+    
+      <category term="起源" scheme="https://blog.kitcham.top/tags/%E8%B5%B7%E6%BA%90/"/>
+    
+      <category term="Material Design" scheme="https://blog.kitcham.top/tags/Material-Design/"/>
+    
+  </entry>
+  
+</feed>
