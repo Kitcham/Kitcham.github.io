@@ -4,7 +4,7 @@
     <!-- 
         © Material Theme
         https://github.com/viosey/hexo-theme-material
-        Version: 1.3.0 -->
+        Version: 1.3.2 -->
 
     <!-- Title -->
     
@@ -25,7 +25,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Kitcham">
     <meta name="description" content="End with One">
-    <meta name="keywords" content="这是一个智慧的年代，这是一个愚蠢的年代； 这是一个光明的季节，这是一个黑暗的季节； 这是希望之春，这是失望之冬；人们面前应有尽有，人们面前一无所有；人们正踏上天堂之路，人们正走向地狱之门。这是一个写作的时代。Make blog great again. 技术录 &amp; 生活记。">
+    <meta name="keywords" content="null">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -58,10 +58,11 @@
         
     <![endif]-->
 
-    <!-- Import CSS -->
-    <link rel="stylesheet" href="/css/material.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <!-- Config CSS -->
+    <!-- Import CSS & jQuery -->
+    
+        <link rel="stylesheet" href="/css/material.min.css">
+        <link rel="stylesheet" href="/css/style.min.css">
+        <!-- Config CSS -->
 
 
 <!-- Other Styles -->
@@ -163,9 +164,9 @@
     </style>
 
 
-
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/queue.js"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/queue.js"></script>
+    
 
     <!-- UC Browser Compatible -->
     <script>
@@ -227,7 +228,7 @@
             <script>
     var randomNum = Math.floor(Math.random() * 19 + 1);
 
-    $('.post_thumbnail-random').css('background-image', 'url(' + 'https://cdn.kitcham.top/blog/img/main/random/material-' + randomNum + '.png' + ')');
+    $('.post_thumbnail-random').css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
 </script>
 
         
@@ -247,7 +248,7 @@
 
     <!-- Author Avatar -->
     <div id="author-avatar">
-        <img src="https://cdn.kitcham.top/blog/img/main/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
     </div>
     <!-- Author Name & Date -->
     <div>
@@ -266,15 +267,6 @@
     -->
 
     <!-- Qrcode -->
-    
-        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">devices other</i>
-            <span class="visuallyhidden">devices other</span>
-        </button>
-        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
-            <li class="mdl-menu__item">在其它设备中阅读本文章</li>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACaUlEQVR42u3aUW7rIBQE0Ox/0+8toIozczHUjQ5fVurYHCoBGe7r31e3Fx4eHh4eHh4e3sN4r7j9/NbP63d/vf7k+jl13/Dw8PCO8D5MtXFX7n3y8Al4eHh4B3nvJtzre5IJPZ/oV/qGh4eH93zeyhY5/xwPDw/vO3jXW958YWi313h4eHhP4yU/+N91bj2GuOsePDw8vDO8PCY4f330fA8PDw8v4NUlTWUMMev6Ug/x8PDwNvNmr1yPFfLhaIcADw8P7wwvjxuSjualBu3R2tIvBjw8PLzNvHYI1guq8qH88A/Aw8PD28zLSe39N0zx5f14eHh4J3nXoe1s4k6ih9lAfFhO8PDw8DbzZtFtEum2kUQbiNxQGYGHh4e3wMsXhtnGN9+az96Lh4eHd5KXPy6PX9uBSwZlWDqAh4eHt5m3Mim3T5iFEVGgjIeHh7eZ1x75J93Nj8ra+CMaejw8PLzNvPWIdrY8tMvGDUVXeHh4eNt4bcSwsni0B2Y3LAx4eHh4y7w2aEim9bz8NCksaENkPDw8vPO8vOVBw8o9dR/w8PDwjvNmgcLwsCpm5Ft/PDw8vN/l5RHDLK5dKX7Fw8PDewKvPQBrQ4Q8pMi33Xh4eHjneSsBRHKc307ubVFCdL6Hh4eHdyvvFbdZjJt0OvnWsOgKDw8Pbxtvthi0Ae7sMKzeauPh4eEd5OUTdLuZbmPivFAVDw8P72/x8qOyNoxoQw08PDy8v8hLDsnyjXuyTX/7HDw8PLyDvHtfPIsV8oUBDw8P73d5bQSQBLXJ9SyA+NATPDw8vM2872t4eHh4eHh4eHgPaP8BhHLtOZYh/OsAAAAASUVORK5CYII=">
-        </ul>
     
 
     <!-- Tags (bookmark) -->
@@ -295,16 +287,6 @@
     <span class="visuallyhidden">share</span>
 </button>
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-    <!-- Leancloud Views -->
-        <a class="post_share-link" href="#">
-            <li class="mdl-menu__item">
-                <span id="/baidu_verify_jswQCcygvu.html" class="leancloud-views_num" data-flag-title="">
-     &nbsp;浏览量
-</span>
-
-            </li>
-        </a>
     
 
     
@@ -350,20 +332,8 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=方于北境&title=&summary=End with One&pics=https://blog.kitcham.top/img/favicon.png&url=https://blog.kitcham.top/baidu_verify_jswQCcygvu.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
 
     <!-- Share Telegram -->
-    
-        <a class="post_share-link" href="https://telegram.me/share/url?url=https://blog.kitcham.top//baidu_verify_jswQCcygvu.html&text=" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Telegram
-            </li>
-        </a>
     
 </ul>
 
@@ -390,80 +360,8 @@
 
 
 
-    <!-- 使用 DISQUS_CLICK -->
-    <div id="disqus-comment">	
-        <div id="disqus_thread"></div>
-<!-- include js -->
-<script src="/js/ripple.js"></script>
 
-<!-- add animation -->
-<style>
-        .ripple-container {
-        }
-        .ripple-container .ripple{
-            background-color: rgba(255,255,255,0.4);
-            animation: ripple 2s forwards cubic-bezier(0, 0, 0.2, 1);
-        }
-        @keyframes ripple {
-            0% {
-                transform: scale(0);
-                opacity: 1;
-            }
-            80% {
-                transform: scale(1);
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-		.disqus_click_btn {
-            background-color: dodgerblue;
-            color: white;
-            padding: 10px 20px;
-            border:0;
-            font-size: 14px;
-            cursor: pointer
-        }
-</style>
-	
-<!-- add data-ripple attribute -->
-<div class="btn_click_load"> 
-    <button class="disqus_click_btn" data-ripple>阅读评论 「请确保 disq.us &amp; disquscdn.com &amp; disqus.com 可以正常加载」</button>
-</div>
-	
-<script>
-    // add effect to elements
-    Array.prototype.forEach.call(document.querySelectorAll('[data-ripple]'), function(element){
-        // find all elements and attach effect
-        new RippleEffect(element); // element is instance of javascript element node
-    });
-</script>
 
-<script>
-    $('.btn_click_load').click(function() {  //click to load comments
-        var disqus_config = function () {
-            this.page.url = 'https://blog.kitcham.top/baidu_verify_jswQCcygvu.html';  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document;
-            var s = d.createElement('script');
-            s.src = '//kitchamblog.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', + new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-        $('.btn_click_load').css('display','none');
-    });
-</script>
-  	
-
-    </div>
-    <style>
-        #disqus-comment{
-            background-color: #eee;
-            padding: 2pc;
-        }
-    </style>
 
                 
             </div>
@@ -493,7 +391,7 @@
 <aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
     <div id="sidebar-main">
         <!-- Sidebar Header -->
-        <div class="sidebar-header header-cover" style="background-image: url(https://cdn.kitcham.top/blog/img/main/sidebar_header.jpg);">
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
     <!-- Top bar -->
     <div class="top-bar"></div>
 
@@ -508,12 +406,12 @@
 
     <!-- Sidebar Avatar -->
     <div class="sidebar-image">
-        <img src="https://cdn.kitcham.top/blog/img/main/avatar.png" alt="Kitcham's avatar">
+        <img src="/img/avatar.png" alt="Kitcham's avatar">
     </div>
 
     <!-- Sidebar Email -->
     <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
-        kitcham@outlook.com
+        youremail@email.com
         <b class="caret"></b>
     </a>
 </div>
@@ -526,16 +424,7 @@
         <ul id="settings-dropdown" class="dropdown-menu">
             
                 <li>
-                    <a href="https://kitcham.top" target="_blank" title="Kitcham">
-                        
-                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">map</i>
-                        
-                        Kitcham
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="mailto:kitcham@outlook.com" target="_blank" title="Email Me">
+                    <a href="#" target="_blank" title="Email Me">
                         
                             <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
                         
@@ -579,76 +468,11 @@
 
     <!-- Categories  -->
     
-        <li class="dropdown">
-            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
-                
-                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
-                
-                分类
-                <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-                <li>
-                <a class="sidebar_archives-link" href="/categories/技术录/">技术录<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/浮生记/">浮生记<span class="sidebar_archives-count">1</span></a>
-            </ul>
-        </li>
-        
-            <li class="divider"></li>
-        
-    
 
     <!-- Pages  -->
     
-        <li>
-            <a href="/about/" title="关于我">
-                
-                    <i class="material-icons sidebar-material-icons">person</i>
-                
-                关于我
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/links/" title="好伙伴们">
-                
-                    <i class="material-icons sidebar-material-icons">people</i>
-                
-                好伙伴们
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/tags/" title="标签云">
-                
-                    <i class="material-icons sidebar-material-icons">bookmark</i>
-                
-                标签云
-            </a>
-        </li>
-        
-    
-        <li>
-            <a href="/gallery/" title="印记">
-                
-                    <i class="material-icons sidebar-material-icons">photo_library</i>
-                
-                印记
-            </a>
-        </li>
-        
-    
 
     <!-- Article Number  -->
-    
-        <li>
-            <a href="/archives">
-                文章总数
-                <span class="sidebar-badge">2</span>
-            </a>
-        </li>
-        
     
 </ul>
 
@@ -698,12 +522,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Sidebar Image -->
     
-    <span id="footer-image">
-        <a href="https://www.upyun.com/" target="_blank" title="upyun_logo">
-            <img src="https://cdn.kitcham.top/blog/img/main/upyun_logo.png" alt="upyun_logo">
-        </a>
-    </span>
-
 
 </aside>
 
@@ -719,7 +537,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Twitter -->
     
         <a href="https://twitter.com/twitter" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(https://cdn.kitcham.top/blog/img/main/footer/footer_ico-twitter.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-twitter.svg);">
                 <span class="visuallyhidden">Twitter</span>
             </button><!--
      --></a>
@@ -728,7 +546,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Facebook -->
     
         <a href="https://www.facebook.com/facebook" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(https://cdn.kitcham.top/blog/img/main/footer/footer_ico-facebook.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-facebook.svg);">
                 <span class="visuallyhidden">Facebook</span>
             </button><!--
      --></a>
@@ -737,7 +555,7 @@ It will not impact the appearance and can give developers a lot of support :)
     <!-- Google + -->
     
         <a href="https://www.google.com/" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(https://cdn.kitcham.top/blog/img/main/footer/footer_ico-gplus.png);">
+            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-gplus.svg);">
                 <span class="visuallyhidden">Google Plus</span>
             </button><!--
      --></a>
@@ -754,12 +572,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
     <!-- Github -->
     
-        <a href="https://github.com/Kitcham" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(https://cdn.kitcham.top/blog/img/main/footer/footer_ico-github.png);">
-                <span class="visuallyhidden">Github</span>
-            </button><!--
-     --></a>
-    
 
     <!-- LinkedIn -->
     
@@ -768,12 +580,6 @@ It will not impact the appearance and can give developers a lot of support :)
     
 
     <!-- Bilibili -->
-    
-        <a href="http://space.bilibili.com/17059657" target="_blank">
-            <button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(https://cdn.kitcham.top/blog/img/main/footer/footer_ico-bilibili.png);">
-                <span class="visuallyhidden">Bilibili</span>
-            </button><!--
-     --></a>
     
 
     <!-- Telegram -->
@@ -804,7 +610,7 @@ It will not impact the appearance and can give developers a lot of support :)
         <div class="mdl-mini-footer--right-section">
             <div>
                 <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
-				<div class="footer-develop-div">Themes <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
             </div>
         </div>
     
@@ -812,9 +618,14 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
                     <!-- Import File -->
-<script src="/js/lazyload.min.js"></script>
-<script src="/js/js.min.js"></script>
-<script src="/js/nprogress.js"></script>
+
+    <script src="/js/lazyload.min.js"></script>
+    <script src="/js/js.min.js"></script>
+
+
+
+    <script src="/js/nprogress.js"></script>
+
 
 <script type="text/javascript">
     NProgress.configure({
@@ -839,93 +650,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-    <script src="/js/smoothscroll.js"></script>
 
-
-
-    <!-- Leancloud -->
-    <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-    <script>
-        AV.initialize('m9yjVCH8UqgAwL6dLkRearMb-gzGzoHsz', 'ivqOMIIxmMz2LJf7DSI0P1df');
-    </script>
-    <script>
-    function showTime(Counter) {
-        var query = new AV.Query(Counter);
-        $('.leancloud-views_num').each(function() {
-            var url = $(this).attr('id').trim();
-            query.equalTo('url', url);
-            query.find({
-                success: function(results) {
-                    if (results.length === 0) {
-                        var content = '0 ' + $(document.getElementById(url)).text();
-                        $(document.getElementById(url)).text(content);
-                        return;
-                    }
-                    for (var i = 0; i < results.length; i++) {
-                        var object = results[i];
-                        var content = object.get('time') + ' ' + $(document.getElementById(url)).text();
-                        $(document.getElementById(url)).text(content);
-                    }
-                },
-                error: function(object, error) {
-                    console.log('Error: ' + error.code + ' ' + error.message);
-                }
-            });
-        });
-    }
-
-    function addCount(Counter) {
-      var Counter = AV.Object.extend('Counter');
-      url = $('.leancloud-views_num').attr('id').trim();
-      title = $('.leancloud-views_num').attr('data-flag-title').trim();
-      var query = new AV.Query(Counter);
-      query.equalTo('url', url);
-      query.find({
-          success: function(results) {
-            if (results.length > 0) {
-                var counter = results[0];
-                counter.fetchWhenSave(true);
-                counter.increment('time');
-                counter.save(null, {
-                    success: function(counter) {
-                        var content =  counter.get('time') + ' ' + $(document.getElementById(url)).text();
-                        $(document.getElementById(url)).text(content);
-                    },
-                    error: function(counter, error) {
-                        console.log('Failed to save Visitor num, with error message: ' + error.message);
-                    }
-                });
-            } else {
-              var newcounter = new Counter();
-              newcounter.set('title', title);
-              newcounter.set('url', url);
-              newcounter.set('time', 1);
-              newcounter.save(null, {
-                  success: function(newcounter) {
-                      console.log('newcounter.get(\'time\')='+newcounter.get('time'));
-                      var content = newcounter.get('time') + ' ' + $(document.getElementById(url)).text();
-                      $(document.getElementById(url)).text(content);
-                  },
-                  error: function(newcounter, error) {
-                      console.log('Failed to create');
-                  }
-              });
-            }
-        },
-        error: function(error) {
-            console.log('Error:' + error.code + ' ' + error.message);
-        }
-      });
-    }
-    $(function() {
-        var Counter = AV.Object.extend('Counter');
-        if ($('.leancloud-views_num').length === 1) {
-            addCount(Counter);
-        } else if ($('.post-title-link').length > 1) {
-            showTime(Counter);
-        }
-    });
-</script>
 
 
 
@@ -940,106 +665,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 <!-- Local Search-->
-
-    <script>
-    var searchFunc = function(path, search_id, content_id) {
-        'use strict';
-        $.ajax({
-            url: path,
-            dataType: 'xml',
-            success: function( xmlResponse ) {
-                // get the contents from search data
-                var datas = $( 'entry', xmlResponse ).map(function() {
-                    return {
-                        title: $( 'title', this ).text(),
-                        content: $('content',this).text(),
-                        url: $( 'url' , this).text()
-                    };
-                }).get();
-                var $input = document.getElementById(search_id);
-                var $resultContent = document.getElementById(content_id);
-                $input.addEventListener('input', function() {
-                    var str='<ul class=\"search-result-list\">';
-                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                    $resultContent.innerHTML = '';
-                    if (this.value.trim().length <= 0) {
-                        return;
-                    }
-                    // perform local searching
-                    datas.forEach(function(data) {
-                        var isMatch = true;
-                        var content_index = [];
-                        var data_title = data.title.trim().toLowerCase();
-                        var data_content = data.content.trim().replace(/<[^>]+>/g,'').toLowerCase();
-                        var data_url = data.url;
-                        var index_title = -1;
-                        var index_content = -1;
-                        var first_occur = -1;
-                        // only match artiles with not empty titles and contents
-                        if(data_title !== '' && data_content !== '') {
-                            keywords.forEach(function(keyword, i) {
-                                index_title = data_title.indexOf(keyword);
-                                index_content = data_content.indexOf(keyword);
-                                if( index_title < 0 && index_content < 0 ) {
-                                    isMatch = false;
-                                } else {
-                                    if (index_content < 0) {
-                                        index_content = 0;
-                                    }
-                                    if (i === 0) {
-                                        first_occur = index_content;
-                                    }
-                                }
-                            });
-                        }
-                        // show search results
-                        if (isMatch) {
-                            str += '<li><a href="'+ data_url +'" class="search-result-title" target="_blank">'+ data_title;
-                            var content = data.content.trim().replace(/<[^>]+>/g, '');
-                            if (first_occur >= 0) {
-                                // cut out characters
-                                var start = first_occur - 6;
-                                var end = first_occur + 6;
-                                if (start < 0) {
-                                    start = 0;
-                                }
-                                if (start === 0) {
-                                    end = 10;
-                                }
-                                if (end > content.length) {
-                                    end = content.length;
-                                }
-                                var match_content = content.substr(start, end);
-                                // highlight all keywords
-                                keywords.forEach(function(keyword) {
-                                    var regS = new RegExp(keyword, 'gi');
-                                    match_content = match_content.replace(regS, '<em class="search-keyword">'+keyword+'</em>');
-                                })
-                                str += '<p class="search-result">' + match_content + '...</p>' +'</a>';
-                            }
-                        }
-                    });
-                    $resultContent.innerHTML = str;
-                });
-            }
-        });
-    }
-</script>
-
-
-    <script>
-        var inputArea = document.querySelector('#search');
-        var getSearchFile = function() {
-            var path = 'search.xml';
-            searchFunc(path, 'search', 'local-search-result');
-        }
-
-        if(inputArea) {
-            inputArea.onfocus = function() {
-                getSearchFile();
-            }
-        }
-    </script>
 
 
 <!-- Window Load-->
